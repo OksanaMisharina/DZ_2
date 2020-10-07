@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'DZ'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.inject:guice:4.0'
+    implementation 'org.jetbrains:annotations:13.0'
+}
